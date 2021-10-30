@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  div {
+      color: white;
+      font-size: 25px;
+  }
+
+  div input {
+      border-radius: 10px;
+      font-size: 17px;
+      margin-top: 15px;
+      padding: 5px;
+  }
+
+  button {
+      border: none;
+      border-radius: 20px;
+      font-size: 21px;
+      margin-top: 15px;
+      padding: 7px;
+      width: 21vw;
+  }
+
+  button:hover {
+      background-color: blueviolet;
+      color: white;
+  }
+
+  .Card {
+      background-color: thistle;
+      border-radius: 5px;
+      margin-top: 25px;
+      padding: 15px;
+      width: 45vw;
+  }
+
+  .Card div {
+      color: saddlebrown;
+  }
